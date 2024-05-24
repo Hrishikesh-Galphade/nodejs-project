@@ -1,4 +1,0 @@
-curl -X POST -H "Authorization: Bearer $(gcloud auth print-access-token)" \
--H "Content-Type: application/json" \
-"https://discoveryengine.googleapis.com/v1alpha/projects/854378013722/locations/global/collections/default_collection/dataStores/verbal-reasoni-g_1711431911836/servingConfigs/default_search:search" \
--d '{"query":"<QUERY>","pageSize":10,"queryExpansionSpec":{"condition":"AUTO"},"spellCorrectionSpec":{"mode":"AUTO"},"contentSearchSpec":{"summarySpec":{"summaryResultCount":5,"ignoreAdversarialQuery":true,"includeCitations":true},"snippetSpec":{"returnSnippet":true},"extractiveContentSpec":{"maxExtractiveAnswerCount":1}}}'
